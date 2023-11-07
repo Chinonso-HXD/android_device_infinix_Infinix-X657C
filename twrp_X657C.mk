@@ -14,8 +14,8 @@ $(call inherit-product, vendor/omni/config/common.mk)
 # Inherit from Infinix-X657C device
 $(call inherit-product, device/infinix/Infinix-X657C/device.mk)
 
-PRODUCT_DEVICE := Infinix-X657C
-PRODUCT_NAME := twrp_Infinix-X657C
+PRODUCT_DEVICE := X657C
+PRODUCT_NAME := twrp_X657C
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X657C
 PRODUCT_MANUFACTURER := infinix
