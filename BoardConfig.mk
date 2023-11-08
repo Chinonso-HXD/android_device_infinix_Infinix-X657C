@@ -1,11 +1,11 @@
-#
+to#
 # Copyright (C) 2023 The Android Open Source Project
 # Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/infinix/Infinix-X657C
+DEVICE_PATH := device/infinix/X657C
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
