@@ -1,4 +1,4 @@
-l#
+#
 # Copyright (C) 2023 The Android Open Source Project
 # Copyright (C) 2023 SebaUbuntu's TWRP device tree generator
 #
@@ -7,6 +7,7 @@ l#
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 
 # Inherit some common Omni stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
@@ -21,6 +22,8 @@ PRODUCT_MODEL := Infinix X657C
 PRODUCT_MANUFACTURER := infinix
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion-infinix-rev1
+
+PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="full_x657c_h6117-user 10 QP1A.190711.020 319582 release-keys"
