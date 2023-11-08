@@ -5,8 +5,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-LOCAL_PATH := $(call my-dir)
+LOCAL_PATH := LOCAL_PATH := device/infinix/X657C
 
-ifeq ($(TARGET_DEVICE),Infinix-X657C)
+ifeq ($(TARGET_DEVICE),X657C)
 include $(call all-subdir-makefiles,$(LOCAL_PATH))
 endif
