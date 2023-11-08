@@ -8,4 +8,4 @@
 LOCAL_PATH := device/infinix/X657C := \
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_Infinix-X657C.mk
+    $(LOCAL_DIR)/twrp_X657C.mk
