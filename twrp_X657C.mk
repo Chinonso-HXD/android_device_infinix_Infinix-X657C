@@ -21,6 +21,8 @@ PRODUCT_NAME := twrp_X657C
 PRODUCT_BRAND := Infinix
 PRODUCT_MODEL := Infinix X657C
 PRODUCT_MANUFACTURER := infinix
+PRODUCT_RELEASE_NAME := Infinix Infinix X657C
+
 
 PRODUCT_GMS_CLIENTID_BASE := android-transsion-infinix-rev1
 
