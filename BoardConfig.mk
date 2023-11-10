@@ -106,7 +106,7 @@ TW_H_OFFSET := -64
 # Maintainer/Version
 TW_DEVICE_VERSION := Miraclev1
 
- NOTE - Dont use '-' or blank spaces in flag values , otherwise it will create build errors or other bugs in recovery (Excluding SHRP_PATH,SHRP_REC). 
+#NOTE - Dont use '-' or blank spaces in flag values , otherwise it will create build errors or other bugs in recovery (Excluding SHRP_PATH,SHRP_REC). 
 # Path of your SHRP Tree
 SHRP_PATH := device/infinix/X657C
 # Maintainer name *
