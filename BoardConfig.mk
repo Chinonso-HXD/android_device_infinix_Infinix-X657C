@@ -81,7 +81,9 @@ VENDOR_SECURITY_PATCH := 2099-12-31
 PLATFORM_VERSION := 99.87.36
 PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 
-# ADDING LOG
+#On
+
+DING LOG
 #TARGET_USES_LOGD := true
 #TWRP_INCLUDE_LOGCAT := true
 
@@ -103,3 +105,44 @@ TW_H_OFFSET := -64
 
 # Maintainer/Version
 TW_DEVICE_VERSION := Miraclev1
+
+ NOTE - Dont use '-' or blank spaces in flag values , otherwise it will create build errors or other bugs in recovery (Excluding SHRP_PATH,SHRP_REC). 
+# Path of your SHRP Tree
+SHRP_PATH := device/infinix/X657C
+# Maintainer name *
+SHRP_MAINTAINER := HXD
+# Device codename *
+SHRP_DEVICE_CODE := X657C
+# Recovery Type (It can be treble,normal,SAR) [Only for About Section] *
+SHRP_REC_TYPE := Treble
+# Recovery Type (It can be A/B or A_only) [Only for About Section] *
+SHRP_DEVICE_TYPE := A/B
+
+
+# SHRP Padding Flag (Only for rounded corner devices.) [Optional]
+# You have to change these values according to your device's roundness.
+SHRP_STATUSBAR_RIGHT_PADDING := 40
+SHRP_STATUSBAR_LEFT_PADDING := 40
+# For Notch devices [Optional]
+SHRP_NOTCH := false
+
+# SHRP Express, enables on-the-fly theme patching (also persistent) + persistent lock [Optional]
+SHRP_EXPRESS := true
+# SHRP Dark mode, use this flag to have dark theme set by default [Optional]
+SHRP_DARK := true
+
+
+# put this 0 if device has no EDL mode *
+SHRP_EDL_MODE := 0
+
+# Put your device's paths from fstab *
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+
+# Check your device's recovery path, dont use blindly *
+SHRP_REC := /dev/block/bootdevice/by-name/recovery
+# Use this flag only if your device is A/B *
+SHRP_AB := true
+# Force mount system in /system despite SAR policy, useful for maintaining backwards compatibility and/or Samsung devices. [Optional]
+SHRP_NO_SAR_AUTOMOUNT := true
