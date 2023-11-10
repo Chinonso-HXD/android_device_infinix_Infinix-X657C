@@ -1,7 +1,7 @@
 DEVICE_PATH := device/infinix/X657C
 
 # For building with minimal manifest
-ALLOW_MISSING_DEPENDENCIES := true
+# ALLOW_MISSING_DEPENDENCIES := true
 
 # Architecture
 TARGET_ARCH := arm
