@@ -103,10 +103,6 @@ TW_H_OFFSET := -64
 # Maintainer/Version
 TW_DEVICE_VERSION := Miraclev1
 
-
-#PBRB flags
-PB_TORCH_PATH := /sys/class/flashlight_core
-
 #SHRP_Variables
 SHRP_PATH := device/infinix/X657C
 SHRP_MAINTAINER := miwa
