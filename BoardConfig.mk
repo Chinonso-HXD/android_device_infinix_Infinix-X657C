@@ -105,10 +105,7 @@ TW_DEVICE_VERSION := Miraclev1
 
 
 #PBRB flags
-PBRP_NOTCH := false
-PBRP_STATUSBAR_RIGHT_PADDING := 20
-PBRP_STATUSBAR_LEFT_PADDING := 20
-
+PB_TORCH_PATH := /sys/class/flashlight_core/flashlight/
 
 #SHRP_Variables
 SHRP_PATH := device/infinix/X657C
